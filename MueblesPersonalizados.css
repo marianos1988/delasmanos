@@ -1,0 +1,41 @@
+.container-muebles-personalizados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-muebles-personalizados .box {
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 3px rgb(113, 72, 66) solid;
+    padding: 8px;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+
+
+
+}
+
+.container-muebles-personalizados .box h2 {
+
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.container-muebles-personalizados .box p {
+    font-size: medium;
+    text-align: center;
+}
+.container-muebles-personalizados .box .box-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-muebles-personalizados li {
+    line-height: 2;
+}
