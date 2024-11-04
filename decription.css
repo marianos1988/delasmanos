@@ -1,0 +1,50 @@
+.container-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-description h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    /* font-style: oblique; */
+    color: rgb(113, 72, 66);
+
+}
+.container-description .box {
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 3px rgb(113, 72, 66) solid;
+    padding: 8px;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+
+.container-description .box h3 {
+    text-align: center;
+    font-size: 30px;
+}
+.container-description .box .box-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container-description .box .box-center ul li {
+    line-height: 2;
+}
+
+.container-description .box p {
+    font-size: medium;
+    text-align: center;
+}
+
+.container-description .box p a {
+text-decoration: underline;
+}
