@@ -1,0 +1,37 @@
+/*HEader PC*/
+
+.js-head-main.head-main.head-colors.position-sticky.position-sticky-md.head-logo-left.head-logo-md-left.head-nav-md-inline.transition-soft {
+    background-color: rgb(138, 100, 45);
+    color: #fff;
+}
+
+.js-desktop-nav-item.js-nav-main-item.nav-main-item.nav-item-desktop.nav-item a {
+    color: #fff;
+}
+
+.js-desktop-nav-item.js-nav-main-item.nav-main-item.nav-item-desktop.nav-item a:hover {
+    color: #000000;
+    transition: all .4s ease-in;
+}
+
+.js-nav-desktop-list-arrow.js-nav-desktop-list-arrow-right.nav-desktop-list-arrow.nav-desktop-list-arrow-right .icon-inline.icon-lg.svg-icon-text,
+.js-modal-open.js-fullscreen-modal-open.btn.btn-utility.position-relative.pr-0 svg,
+.btn.btn-utility .icon-inline.utilities-icon,
+.js-search-button.js-modal-open.js-fullscreen-modal-open.btn.btn-utility.utilities-item svg {
+    fill: #fff;
+}
+
+.js-nav-desktop-list-arrow.js-nav-desktop-list-arrow-right.nav-desktop-list-arrow.nav-desktop-list-arrow-right .icon-inline.icon-lg.svg-icon-text:hover,
+.js-modal-open.js-fullscreen-modal-open.btn.btn-utility.position-relative.pr-0 svg:hover,
+.btn.btn-utility .icon-inline.utilities-icon:hover,
+.js-search-button.js-modal-open.js-fullscreen-modal-open.btn.btn-utility.utilities-item svg:hover {
+    fill: #000;
+    transition: all .4s ease-in;
+}
+
+@media (min-width: 768px) AND (max-width: 1199px) {
+    .js-utility-col.js-search-utility.col-auto.desktop-utility-col.col-md-auto.col-utility.order-1.order-md-0 {
+
+        margin-left: 5px;
+    }
+}
