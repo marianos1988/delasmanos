@@ -14,6 +14,7 @@
     transition: all .4s ease-in;
 }
 
+.js-nav-desktop-list-arrow.js-nav-desktop-list-arrow-left.nav-desktop-list-arrow.nav-desktop-list-arrow-left .icon-inline.icon-lg.icon-flip-horizontal.svg-icon-text,
 .js-nav-desktop-list-arrow.js-nav-desktop-list-arrow-right.nav-desktop-list-arrow.nav-desktop-list-arrow-right .icon-inline.icon-lg.svg-icon-text,
 .js-modal-open.js-fullscreen-modal-open.btn.btn-utility.position-relative.pr-0 svg,
 .btn.btn-utility .icon-inline.utilities-icon,
@@ -21,6 +22,7 @@
     fill: #fff;
 }
 
+.js-nav-desktop-list-arrow.js-nav-desktop-list-arrow-left.nav-desktop-list-arrow.nav-desktop-list-arrow-left .icon-inline.icon-lg.icon-flip-horizontal.svg-icon-text:hover,
 .js-nav-desktop-list-arrow.js-nav-desktop-list-arrow-right.nav-desktop-list-arrow.nav-desktop-list-arrow-right .icon-inline.icon-lg.svg-icon-text:hover,
 .js-modal-open.js-fullscreen-modal-open.btn.btn-utility.position-relative.pr-0 svg:hover,
 .btn.btn-utility .icon-inline.utilities-icon:hover,
@@ -32,6 +34,60 @@
 @media (min-width: 768px) AND (max-width: 1199px) {
     .js-utility-col.js-search-utility.col-auto.desktop-utility-col.col-md-auto.col-utility.order-1.order-md-0 {
 
-        margin-left: 5px;
+        margin-left: 25px;
     }
+}
+
+.js-desktop-dropdown.nav-dropdown-content.desktop-dropdown {
+    background-color: rgb(138, 100, 45);
+}
+
+
+/*Navbar Mobile*/
+
+.modal-body.nav-body {
+    background-color: rgb(138, 100, 45);
+}
+
+.col-auto.pr-0 svg {
+    fill: #fff;
+}
+
+.row.no-gutters.align-items-center,
+.col.pl-2.text-left.font-small a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.col.pl-2.text-left.font-small a:hover {
+    color: #000;
+    transition: all .4s ease-in;
+}
+
+.js-modal-close.modal-close .icon-inline.svg-icon-text:hover {
+    fill: #000;
+    transition: all .4s ease-in;
+}
+
+.nav-list .js-desktop-nav-item.nav-item {
+  border-top: 1px solid #fff;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.nav-list .js-desktop-nav-item.nav-item:last-child,
+.nav-list .js-desktop-nav-item.nav-item:nth-child(1)
+ {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-left: none;
+  border-right: none;
+}
+
+.js-desktop-nav-item.nav-item  .nav-list-link,
+.nav-item.item-with-subitems .js-toggle-menu-panel.align-items-center.nav-list-link.position-relative   {
+    color: #fff;
+
 }
