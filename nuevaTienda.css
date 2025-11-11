@@ -6,7 +6,7 @@
 }
 
 .js-head-main.head-main.head-colors.position-sticky.position-sticky-md.head-logo-left.head-logo-md-left.head-nav-md-inline.transition-soft {
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(202, 202, 202) ;
     color: #000000;
 }
 
@@ -58,8 +58,9 @@
 /*Navbar Mobile*/
 
 .modal-body.nav-body {
-    background-color: rgb(202, 202, 202);
-}
+
+    background-color: rgb(202, 202, 202) !important;
+} 
 
 .nav-list-arrow.ml-1 .icon-inline.icon-lg.svg-icon-text,
 .col-auto.pr-0 svg {
@@ -100,21 +101,21 @@
 .nav-list .js-desktop-nav-item.nav-item:last-child,
 .nav-list .js-desktop-nav-item.nav-item:nth-child(1)
  {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
   border-left: none;
   border-right: none;
 }
 
 .js-desktop-nav-item.nav-item .nav-list-link,
 .nav-item.item-with-subitems .js-toggle-menu-panel.align-items-center.nav-list-link.position-relative   {
-    color: #fff;
+    color: #000;
 
 }
 
 .js-desktop-nav-item.nav-item a:hover,
 .nav-item.item-with-subitems .js-toggle-menu-panel.align-items-center.nav-list-link.position-relative:hover {
-    color: #000 !important;
+    color: #fff !important;
     transition: all .4s ease-in;
 }
 
