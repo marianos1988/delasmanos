@@ -92,7 +92,7 @@
 }
 
 .nav-list .js-desktop-nav-item.nav-item {
-  border-top: 1px solid #000;
+  border-top: 1px solid #c0bfbf;
   border-bottom: none;
   border-left: none;
   border-right: none;
@@ -101,8 +101,8 @@
 .nav-list .js-desktop-nav-item.nav-item:last-child,
 .nav-list .js-desktop-nav-item.nav-item:nth-child(1)
  {
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: 1px solid #c0bfbf;
+  border-bottom: 1px solid #c0bfbf;
   border-left: none;
   border-right: none;
 }
@@ -117,9 +117,39 @@
 .nav-item.item-with-subitems .js-toggle-menu-panel.align-items-center.nav-list-link.position-relative:hover {
     color: #fff !important;
     transition: all .4s ease-in;
+
+    & svg {
+            fill: #fff !important;
+            transition: all .4s ease-in;
+    }
 }
 
  .nav-item.item-with-subitems .js-menu-panel.nav-list-panel.nav-list-panel-right.list-subitems.nav-list-panel-show,
 .js-menu-panel.nav-list-panel.nav-list-panel-right.list-subitems.nav-list-panel-show .modal-body.p-0{
    background-color:  rgb(202, 202, 202);
 }
+
+.row.no-gutters.align-items-center {
+    font-size: 25px;
+}
+
+.row.no-gutters.align-items-center:hover {
+    color: #fff;
+
+    transition: all .4s ease-in;
+
+    & svg {
+
+        fill: #fff;
+        transition: all .4s ease-in;
+    }
+    }
+
+
+.js-toggle-menu-close.js-modal-close.modal-close svg:hover,
+.nav-list-link.position-relative.font-small.py-3 {
+        fill: #fff;
+        color: #fff;
+        transition: all .4s ease-in;
+}
+
