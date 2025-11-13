@@ -147,9 +147,38 @@
 
 
 .js-toggle-menu-close.js-modal-close.modal-close svg:hover,
-.nav-list-link.position-relative.font-small.py-3 {
+.nav-list-link.position-relative.font-small.py-3:hover {
         fill: #fff;
         color: #fff;
         transition: all .4s ease-in;
 }
 
+
+/* FOOTER */
+
+.js-accordion-private-toggle-mobile.row.align-items-center .font-big.col.p-3,
+.js-accordion-private-toggle-inactive svg,
+.footer-menu-item .footer-menu-link,
+.footer-menu-item .contact-link,
+.list.font-small.py-2 .footer-menu-item,
+.social-icon svg,
+.col-md.font-smallest .d-inline-block.mr-md-2,
+.claim-link.d-md-inline-block.mt-md-0.mt-3 .d-inline-block.mb-2.mb-md-0,
+.claim-link.d-md-inline-block.mt-md-0.mt-3 a,
+.claim-link.d-md-inline-block.mt-md-0.mt-3 .mx-1.d-none.d-md-inline-block,
+.powered-by-logo svg{
+    color: #000 !important;
+    fill: #000;
+}
+
+.js-accordion-private-toggle-mobile.row.align-items-center .font-big.col.p-3:hover,
+.js-accordion-private-toggle-inactive svg:hover,
+.footer-menu-item .footer-menu-link:hover,
+.footer-menu-item .contact-link:hover,
+.social-icon svg:hover,
+.claim-link.d-md-inline-block.mt-md-0.mt-3 a:hover {
+        color: #fff !important;
+        fill: #fff;
+        transition: all .4s ease-in;
+
+}
