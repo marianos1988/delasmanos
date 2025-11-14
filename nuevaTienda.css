@@ -182,3 +182,29 @@
         transition: all .4s ease-in;
 
 }
+
+
+/* Seccion Productos */
+
+
+/*Filtros*/
+
+.row .col-md-auto.filters-sidebar.d-none.d-md-block.visible-when-content-ready {
+    background-color: rgb(202, 202, 202);
+    border-radius: 15px;
+    padding: 20px;
+    border: solid 2px #000;
+    
+}
+
+
+..js-accordion-private-toggle.d-inline-block.btn-link.font-small.mt-1 .js-accordion-private-toggle-inactive:hover,
+.mb-4.pb-2.list-unstyled .mb-2 a:hover {
+
+    color: #fff;
+
+}
+
+.js-sort-by-private.form-select.form-select-small {
+ background-color: #fff;
+}
