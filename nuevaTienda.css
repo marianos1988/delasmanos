@@ -187,7 +187,7 @@
 /* Seccion Productos */
 
 
-/*Filtros*/
+/*Filtros PC*/
 
 .row .col-md-auto.filters-sidebar.d-none.d-md-block.visible-when-content-ready {
     background-color: rgb(202, 202, 202);
@@ -198,13 +198,33 @@
 }
 
 
-..js-accordion-private-toggle.d-inline-block.btn-link.font-small.mt-1 .js-accordion-private-toggle-inactive:hover,
+.js-accordion-private-toggle.d-inline-block.btn-link.font-small.mt-1 .js-accordion-private-toggle-inactive:hover,
 .mb-4.pb-2.list-unstyled .mb-2 a:hover {
 
     color: #fff;
-
+ transition: all .4s ease-in;
+ text-decoration: underline #fff;
 }
 
-.js-sort-by-private.form-select.form-select-small {
+.js-sort-by-private.form-select.form-select-small,
+.js-filter-input-price-container.filter-input-price-container input {
  background-color: #fff;
+
 }
+
+
+/* Filtros mobile */
+
+.js-modal.modal.modal-bottom.modal-centered.modal-bottom-sheet.modal-right-md.modal--md.transition-slide.modal-docked-md.transition-soft.modal-show,
+.js-modal.modal.modal-bottom.modal-centered.modal-bottom-sheet.modal-right-md.modal--md.transition-slide.modal-docked-md.transition-soft.modal-show .modal-body,
+.js-modal.modal.modal-filters.modal-docked-small.modal-right.modal--md.transition-slide.modal-docked-md.transition-soft.modal-show,
+.js-modal.modal.modal-filters.modal-docked-small.modal-right.modal--md.transition-slide.modal-docked-md.transition-soft.modal-show .modal-body.h-100.p-0 {
+    background-color: rgb(202, 202, 202)
+}
+
+.radio-button-content .radio-button-label:hover,
+label .checkbox .checkbox-text:hover {
+ color: #fff;
+ transition: all .4s ease-in;
+}
+
