@@ -15,6 +15,7 @@
 
 .js-desktop-nav-item.js-nav-main-item.nav-main-item.nav-item-desktop.nav-item a {
     color: #000;
+    font-weight: 400;
 }
 .js-desktop-nav-item.js-nav-main-item.nav-main-item.nav-item-desktop.nav-item a:hover {
     color: #fff !important;

@@ -56,3 +56,10 @@
 .container-description .sub-container-description .box p a {
 text-decoration: underline;
 }
+
+@media (min-width: 992px) {
+    .col .px-md-3.pb-md-4 {
+    margin: auto;
+    width: 100dvh;
+}
+}
