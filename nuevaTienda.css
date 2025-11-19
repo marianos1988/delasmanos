@@ -229,3 +229,82 @@ label .checkbox .checkbox-text:hover {
  transition: all .4s ease-in;
 }
 
+/* SEccion Envios */
+
+.container-envios .box {
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 3px rgb(113, 72, 66) solid;
+    padding: 8px;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+
+.container-envios .box h2 {
+
+    font-size: 27px;
+    text-align: center;
+
+}
+
+.container-envios .box p {
+    font-size: medium;
+    text-align: center;
+}
+
+
+
+/* Seccion Contacto */
+
+.col-md-4.mb-3 .list.py-2 {
+
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 2px rgb(113, 72, 66) solid;
+    padding: 8px;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+
+.col-md-5 .js-form.form.js-winnie-pooh-form {
+
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 2px rgb(113, 72, 66) solid;
+    padding: 8px;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+
+.mb-3 a:hover {
+
+    color: rgb(113, 72, 66);
+    transition:  all .4s ease-in;
+
+    & svg {
+    fill: rgb(113, 72, 66);
+    transition:  all .4s ease-in;
+    }
+}
+
+.form-group label {
+    font-size: larger;
+}
+
+.form-group input,
+.form-group textarea {
+    border-radius: 10px;
+}
+
+.form-group input:hover,
+.form-group input:focus,
+.form-group textarea:hover,
+.form-group textarea:focus {
+    border: solid 2px #000;
+    transition: all .4s ease-in;
+}
+
+.form-group button {
+    background-color: #000;
+}
