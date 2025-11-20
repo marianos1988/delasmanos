@@ -1,13 +1,8 @@
 /*HEader PC*/
 
 .js-head-main.head-main.head-colors.position-sticky.position-sticky-md.head-logo-left.head-logo-md-left.head-nav-md-inline.transition-soft:hover {
-    color: #fff;
+    color: #363636;
     transition: all .4s ease-in;
-}
-
-.js-head-main.head-main.head-colors.position-sticky.position-sticky-md.head-logo-left.head-logo-md-left.head-nav-md-inline.transition-soft {
-    background-color: rgb(202, 202, 202) ;
-    color: #000000;
 }
 
 
@@ -18,12 +13,12 @@
     font-weight: 400;
 }
 .js-desktop-nav-item.js-nav-main-item.nav-main-item.nav-item-desktop.nav-item a:hover {
-    color: #fff !important;
+    color: #363636 !important;
     transition: all .4s ease-in;
 }
 
 .nav-item-container .nav-list-link.osition-relative:hover {
-        color: #fff !important;
+        color: #363636 !important;
     transition: all .4s ease-in;
 }
 
@@ -40,7 +35,7 @@
 .js-modal-open.js-fullscreen-modal-open.btn.btn-utility.position-relative.pr-0 svg:hover,
 .btn.btn-utility .icon-inline.utilities-icon:hover,
 .js-search-button.js-modal-open.js-fullscreen-modal-open.btn.btn-utility.utilities-item svg:hover {
-    fill: #fff;
+    fill: #363636;
     transition: all .4s ease-in;
 }
 
@@ -51,17 +46,11 @@
     }
 }
 
-.js-desktop-dropdown.nav-dropdown-content.desktop-dropdown {
-    background-color: rgb(202, 202, 202);
-}
 
 
 /*Navbar Mobile*/
 
-.modal-body.nav-body {
 
-    background-color: rgb(202, 202, 202) !important;
-} 
 
 .nav-list-arrow.ml-1 .icon-inline.icon-lg.svg-icon-text,
 .col-auto.pr-0 svg {
@@ -70,7 +59,7 @@
 
 .nav-list-arrow.ml-1 .icon-inline.icon-lg.svg-icon-text:hover,
 .col-auto.pr-0 svg:hover {
-     color: #fff;
+     color: #363636;
     transition: all .4s ease-in;
 }
 
@@ -83,12 +72,12 @@
 }
 
 .col.pl-2.text-left.font-small a:hover {
-    color: #fff;
+    color: #363636;
     transition: all .4s ease-in;
 }
 
 .js-modal-close.modal-close .icon-inline.svg-icon-text:hover {
-    fill: #fff;
+    fill: #363636;
     transition: all .4s ease-in;
 }
 
@@ -116,41 +105,37 @@
 
 .js-desktop-nav-item.nav-item a:hover,
 .nav-item.item-with-subitems .js-toggle-menu-panel.align-items-center.nav-list-link.position-relative:hover {
-    color: #fff !important;
+    color: #363636 !important;
     transition: all .4s ease-in;
 
     & svg {
-            fill: #fff !important;
+            fill: #363636 !important;
             transition: all .4s ease-in;
     }
 }
 
- .nav-item.item-with-subitems .js-menu-panel.nav-list-panel.nav-list-panel-right.list-subitems.nav-list-panel-show,
-.js-menu-panel.nav-list-panel.nav-list-panel-right.list-subitems.nav-list-panel-show .modal-body.p-0{
-   background-color:  rgb(202, 202, 202);
-}
 
 .row.no-gutters.align-items-center {
     font-size: 25px;
 }
 
 .row.no-gutters.align-items-center:hover {
-    color: #fff;
+    color: #363636 ;
 
     transition: all .4s ease-in;
 
     & svg {
 
-        fill: #fff;
+        fill: #363636 ;
         transition: all .4s ease-in;
     }
     }
 
-
+    
 .js-toggle-menu-close.js-modal-close.modal-close svg:hover,
 .nav-list-link.position-relative.font-small.py-3:hover {
-        fill: #fff;
-        color: #fff;
+        fill: #363636;
+        color: #363636;
         transition: all .4s ease-in;
 }
 
@@ -305,6 +290,6 @@ label .checkbox .checkbox-text:hover {
     transition: all .4s ease-in;
 }
 
-.form-group button {
-    background-color: #000;
+.js-form.form.js-winnie-pooh-form .btn.btn-primary.btn-big.btn-block {
+    background: #000 !important;
 }
