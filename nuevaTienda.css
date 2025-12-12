@@ -140,6 +140,35 @@
 }
 
 
+/* NEWSLETTER */
+
+.section-home.section-newsletter.visible-when-content-ready .js-home-newsletter-container.section-newsletter-home.section-newsletter-home-colors.position-relative.overflow-none {
+
+    background-color: rgb(202, 202, 202);
+    border-radius: 15px;
+    padding: 20px;
+    border: solid 2px #000;
+}
+
+.form-group.mb-0 .form-control {
+    border: solid 1px #000;
+    color: #000;
+    background-color: #fff;
+
+}  
+
+.form-group.mb-0 .form-control::placeholder {
+
+    color: #000;
+    opacity: .8;
+
+}  
+
+.col-auto.pl-3 .btn.btn-primary.newsletter-btn {
+        background-color: #000;
+    color: #fff;
+}
+
 /* FOOTER */
 
 .js-accordion-private-toggle-mobile.row.align-items-center .font-big.col.p-3,
