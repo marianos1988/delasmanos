@@ -140,6 +140,16 @@
 }
 
 
+/* CAROUSEL*/
+
+.js-swiper-text.swiper-text.swiper-text-centered.swiper-text-light .mb-3 {
+    letter-spacing: 5px;
+}
+
+.js-swiper-text.swiper-text.swiper-text-centered.swiper-text-light .btn.btn-default.btn-small.d-inline-block {
+    border-radius: 10px;
+}
+
 /* NEWSLETTER */
 
 .section-home.section-newsletter.visible-when-content-ready .js-home-newsletter-container.section-newsletter-home.section-newsletter-home-colors.position-relative.overflow-none {
