@@ -11,7 +11,38 @@
 .js-desktop-nav-item.js-nav-main-item.nav-main-item.nav-item-desktop.nav-item a {
     color: #000;
     font-weight: 400;
+      position: relative;
+  text-decoration: none;
 }
+
+.desktop-list-subitems {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.js-desktop-nav-item.js-nav-main-item.nav-main-item.nav-item-desktop.nav-item a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.js-desktop-nav-item.js-nav-main-item.nav-main-item.nav-item-desktop.nav-item a:hover::after {
+
+  transform: scaleX(1);
+
+}
+
 .js-desktop-nav-item.js-nav-main-item.nav-main-item.nav-item-desktop.nav-item a:hover {
     color: #363636 !important;
     transition: all .4s ease-in;
@@ -222,6 +253,17 @@
     
 }
 
+.item-link .js-item-name.item-name.mb-2.font-small.opacity-80 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.d-block.mb-1.mr-1 .js-price-display.item-price.font-weight-bold {
+    font-weight: 100 !important;
+    font-size: smaller !important;
+    color: #8e8d8d !important;
+    opacity: .8;
+}
 
 .js-accordion-private-toggle.d-inline-block.btn-link.font-small.mt-1 .js-accordion-private-toggle-inactive:hover,
 .mb-4.pb-2.list-unstyled .mb-2 a:hover {
