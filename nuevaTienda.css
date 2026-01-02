@@ -185,7 +185,7 @@
 
 .section-home.section-newsletter.visible-when-content-ready .js-home-newsletter-container.section-newsletter-home.section-newsletter-home-colors.position-relative.overflow-none {
 
-    background-color: rgb(202, 202, 202);
+    background-color: #fff;
     border-radius: 15px;
     padding: 20px;
     border: solid 2px #000;
@@ -211,6 +211,13 @@
 }
 
 /* FOOTER */
+
+footer {
+    background-color: #fff;
+    border-top: 2px solid #000;
+    margin-top: 35px;
+}
+
 
 .js-accordion-private-toggle-mobile.row.align-items-center .font-big.col.p-3,
 .js-accordion-private-toggle-inactive svg,
@@ -246,10 +253,12 @@
 /*Filtros PC*/
 
 .row .col-md-auto.filters-sidebar.d-none.d-md-block.visible-when-content-ready {
-    background-color: rgb(202, 202, 202);
+
     border-radius: 15px;
     padding: 20px;
-    border: solid 2px #000;
+        border: solid 2px #7e7e7e;
+        background-color: #c0bfbf;
+
     
 }
 
@@ -261,8 +270,16 @@
 .d-block.mb-1.mr-1 .js-price-display.item-price.font-weight-bold {
     font-weight: 100 !important;
     font-size: smaller !important;
-    color: #8e8d8d !important;
     opacity: .8;
+}
+
+
+.js-accordion-private-toggle.d-inline-block.btn-link.font-small.mt-1 .js-accordion-private-toggle-inactive:hover,
+.mb-4.pb-2.list-unstyled .mb-2 a {
+
+ 
+ transition: all .4s ease-in;
+ text-decoration: none;
 }
 
 .js-accordion-private-toggle.d-inline-block.btn-link.font-small.mt-1 .js-accordion-private-toggle-inactive:hover,
@@ -270,8 +287,29 @@
 
     color: #fff;
  transition: all .4s ease-in;
- text-decoration: underline #fff;
+ text-decoration: none;
 }
+
+.filters-categories-container .h6.font-big.mb-4,
+.js-filter-container h6, 
+.mb-4.pb-2 label,
+.filters-categories-container .h6.font-big.mb-4,
+form .h6.font-weight-bold.mb-4.font-big  {
+    opacity: .6;
+}
+
+
+
+.mb-2 .font-small,
+a .js-accordion-private-toggle-active,
+a .js-accordion-private-toggle-inactive,
+.mb-4.pb-2 .form-group.form-group.d-inline-block.w-auto.mb-0,
+label .checkbox .checkbox-text,
+.d-block.mb-1.mr-1 .js-price-display.item-price.font-weight-bold
+ {
+    color: #7e7e7e
+}
+
 
 .js-sort-by-private.form-select.form-select-small,
 .js-filter-input-price-container.filter-input-price-container input {
@@ -289,11 +327,15 @@
     background-color: rgb(202, 202, 202)
 }
 
+
+
 .radio-button-content .radio-button-label:hover,
 label .checkbox .checkbox-text:hover {
  color: #fff;
  transition: all .4s ease-in;
 }
+
+
 
 /* SEccion Envios */
 
