@@ -3,9 +3,37 @@
 .js-head-main.head-main.head-colors.position-sticky.position-sticky-md.head-logo-left.head-logo-md-left.head-nav-md-inline.transition-soft:hover {
     color: #363636;
     transition: all .4s ease-in;
+    height: 150px;
 }
 
 
+header {
+    height: 245px;
+}
+
+header.compress .head-nav.transition-soft.d-none.d-md-block {
+transform: translateY(-50px);
+}
+
+@media (max-width: 767px) {
+    header {
+    height: 195px;
+    
+}
+.logo-img-container a img {
+    transform: scale(1.6) translateY(20px)
+}
+}
+
+
+.head-logo-row.position-relative {
+    height: 200px;
+}
+
+
+.logo-img-container a img {
+    transform: scale(2) translateY(20px)
+}
 
 
 .js-desktop-nav-item.js-nav-main-item.nav-main-item.nav-item-desktop.nav-item a {
